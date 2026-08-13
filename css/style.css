@@ -247,3 +247,58 @@ footer p {
     }
 
 }
+/* ---------- Style Guide ---------- */
+
+.style-example {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.style-example > div {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+th,
+td {
+    border: 1px solid #d1d5db;
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+}
+
+pre {
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: monospace;
+}
+
+@media (max-width: 700px) {
+
+    .style-example {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+}

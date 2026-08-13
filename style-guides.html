@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Style Guide | Eliza Lucey</title>
+
+    <meta
+        name="description"
+        content="Technical writing style guide covering voice, tone, terminology, procedures, accessibility, UX writing, and AI-assisted documentation."
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="documentation.html">Documentation</a>
+            <a href="ai-agents.html">AI & Agents</a>
+            <a href="architecture.html">Architecture</a>
+            <a href="style-guides.html">Style Guides</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+
+        <div class="hero">
+            <h1>Technical Writing Style Guide</h1>
+
+            <p>
+                Editorial principles for creating clear, consistent,
+                accessible, and user-focused technical documentation.
+            </p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Purpose</h2>
+
+            <p>
+                This style guide defines writing standards for technical
+                documentation, developer content, product documentation,
+                and user-facing content.
+            </p>
+
+            <p>
+                The goal is to create documentation that is clear,
+                consistent, accessible, and easy for users to act on.
+            </p>
+        </section>
+
+        <section>
+            <h2>Voice & Tone</h2>
+
+            <h3>Voice</h3>
+
+            <p>
+                Documentation should be confident, helpful, direct,
+                and respectful of the reader's time.
+            </p>
+
+            <h3>Tone</h3>
+
+            <p>
+                Tone should adapt to the user's situation while remaining
+                professional and approachable.
+            </p>
+
+            <ul>
+                <li>Use clear and direct language.</li>
+                <li>Prefer active voice.</li>
+                <li>Avoid unnecessary jargon.</li>
+                <li>Explain unfamiliar technical concepts.</li>
+                <li>Focus on what the user needs to accomplish.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Plain Language</h2>
+
+            <p>
+                Write for understanding rather than complexity.
+            </p>
+
+            <div class="style-example">
+
+                <div>
+                    <h3>Before</h3>
+
+                    <p>
+                        Authentication credentials must be utilized
+                        in order to facilitate successful access to
+                        the administrative interface.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>After</h3>
+
+                    <p>
+                        Use your credentials to sign in to the
+                        administrative interface.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Headings</h2>
+
+            <p>
+                Headings should describe the information that follows
+                and allow users to scan the page quickly.
+            </p>
+
+            <ul>
+                <li>Use descriptive headings.</li>
+                <li>Keep headings concise.</li>
+                <li>Use sentence case.</li>
+                <li>Maintain a logical heading hierarchy.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Procedures</h2>
+
+            <p>
+                Use numbered steps when users need to complete actions
+                in a specific sequence.
+            </p>
+
+            <h3>Example</h3>
+
+            <ol>
+                <li>Sign in to the administrator console.</li>
+                <li>Open <strong>Settings</strong>.</li>
+                <li>Select <strong>Authentication</strong>.</li>
+                <li>Configure the required authentication method.</li>
+                <li>Select <strong>Save</strong>.</li>
+            </ol>
+
+            <p>
+                Each step should contain a clear action and should avoid
+                combining unrelated actions whenever possible.
+            </p>
+        </section>
+
+        <section>
+            <h2>UI Terminology</h2>
+
+            <p>
+                Use interface labels exactly as they appear in the product.
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Preferred</th>
+                        <th>Avoid</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Select <strong>Save</strong>.</td>
+                        <td>Click the save button.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Open <strong>Settings</strong>.</td>
+                        <td>Go into the settings area.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Enter your username.</td>
+                        <td>Input your username.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Code Examples</h2>
+
+            <p>
+                Code examples should be complete enough for the reader
+                to understand how the example works.
+            </p>
+
+            <pre><code>curl https://api.example.com/users \
+  -H "Authorization: Bearer YOUR_TOKEN"</code></pre>
+
+            <ul>
+                <li>Use syntax highlighting when supported.</li>
+                <li>Explain important parameters.</li>
+                <li>Never expose real credentials or secrets.</li>
+                <li>Use realistic but clearly fictional values.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Accessibility</h2>
+
+            <p>
+                Documentation should be accessible to users with
+                different abilities, devices, and levels of technical
+                experience.
+            </p>
+
+            <ul>
+                <li>Use descriptive link text.</li>
+                <li>Maintain logical heading structure.</li>
+                <li>Provide alternative text for meaningful images.</li>
+                <li>Do not rely on color alone to communicate meaning.</li>
+                <li>Use readable language and sufficient contrast.</li>
+                <li>Design content to work with assistive technologies.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>AI-Assisted Documentation</h2>
+
+            <p>
+                AI can accelerate research, drafting, restructuring,
+                and content analysis, but generated content must be
+                reviewed by a qualified human.
+            </p>
+
+            <ul>
+                <li>Verify technical claims.</li>
+                <li>Validate code examples.</li>
+                <li>Protect confidential information.</li>
+                <li>Review terminology and product accuracy.</li>
+                <li>Check content against authoritative sources.</li>
+                <li>Maintain human editorial ownership.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Editorial Checklist</h2>
+
+            <ul>
+                <li>Is the user's goal clear?</li>
+                <li>Can the reader find the information quickly?</li>
+                <li>Are instructions actionable?</li>
+                <li>Is the terminology consistent?</li>
+                <li>Are technical claims accurate?</li>
+                <li>Are examples complete and safe?</li>
+                <li>Has accessibility been considered?</li>
+                <li>Has the content been reviewed?</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eliza Lucey</p>
+    </footer>
+
+</body>
+
+</html>
